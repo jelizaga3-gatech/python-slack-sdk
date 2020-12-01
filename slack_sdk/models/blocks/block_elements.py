@@ -981,9 +981,10 @@ class PlainTextInputElement(InputInteractiveElement):
         **others: dict,
     ):
         """
-        A plain-text input, similar to the HTML <input> tag, creates a field where a user can enter freeform data. 
-        It can appear as a single-line field or a larger textarea using the multiline flag.
-        Plain-text input elements can be used inside of SectionBlocks and ActionsBlocks.
+        A plain-text input, similar to the HTML <input> tag, creates a field
+        where a user can enter freeform data. It can appear as a single-line
+        field or a larger textarea using the multiline flag. Plain-text input
+        elements can be used inside of SectionBlocks and ActionsBlocks.
         https://api.slack.com/reference/block-kit/block-elements#input
         """
         super().__init__(
